@@ -1,0 +1,171 @@
+/* ------------------ */
+@import url("reset.css");
+/* ------------------ */
+
+body {
+  background-color: #fff;
+  /* font-family: "Cormorant"; */
+  font-weight: 500;
+  /* color: #9c9c9c; */
+}
+
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: clip;
+}
+
+[class*="__container"] {
+  max-width: 1310px;
+  margin: 0 auto;
+  padding: 0px 15px;
+}
+
+.page {
+  padding-top: 10px;
+  flex: 1 1 auto;
+  background-color: #557A95;
+}
+
+/* ------------------ */
+.header {
+  /* position: fixed; */
+  width: 100%;
+  top: 0;
+  left: 0;
+  /* z-index: 50; */
+  background-color: rgba(13, 13, 17, 0.7);
+}
+
+.header__container {
+  display: flex;
+  column-gap: 35px;
+  align-items: center;
+  /* min-height: 116px; */
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.header__logo {}
+
+.header__menu {
+  flex: 1 1 auto;
+}
+
+.header___mail {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 35px;
+  row-gap: 3px;
+  justify-content: flex-end;
+}
+
+/* ------------------ */
+/*    Swiper    */
+/* ------------------ */
+.main__container {
+  /* background-color: #557A95; */
+}
+
+.swiper {
+  max-width: 800px;
+  margin: 0 auto 50px;
+  overflow: hidden;
+  position: relative;
+}
+
+.swiper-wrapper {
+  display: flex;
+}
+
+.swiper-slide {
+  flex-shrink: 0;
+  padding-bottom: 52.8%;
+  position: relative;
+}
+
+.swiper-slide img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-pagination {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  padding: 10px;
+  display: flex;
+  gap: 5px;
+}
+
+.swiper-pagination-bullet {
+  height: 2px;
+  flex: 1 1 auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: all 0.2s;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: orange;
+}
+
+.swiper-pagination-lock {
+  display: none;
+}
+
+/* Demo styles html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #557A95;
+}
+
+.main__container {
+  display: flex;
+  gap: 32px;
+}
+
+.swiper {}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 260px;
+  height: 500px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+} */
